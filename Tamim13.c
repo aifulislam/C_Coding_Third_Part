@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+    char ch = "A";
+    printf("Enter the first letter of your name: ");
+    //scanf("%c", &ch);
+    ch = getchar();
+    printf("The first letter of your name is: %c\n", ch);
+
+    return 0;
+}
